@@ -1,0 +1,253 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "UniRide",
+    "dateExported": "2023-05-19T01:00:21.474Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d46a9f49-2fe8-4072-a959-2f75431be07f",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Deleta Carona",
+            "url": "http://localhost:8000/caronas/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-05-19T00:58:48.652Z",
+            "modified": "2023-05-19T00:58:48.652Z",
+            "headers": []
+        },
+        {
+            "_id": "8a5d2c75-4d2d-4f51-9e21-3d05e0da2d3b",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Deleta Carona",
+            "url": "http://localhost:8000/caronas/2",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-19T00:59:01.675Z",
+            "modified": "2023-05-19T00:59:01.675Z",
+            "headers": []
+        },
+        {
+            "_id": "b42ec83e-518b-445c-91f6-13da3371cbe3",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Alterar Carona",
+            "url": "http://localhost:8000/caronas/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-19T00:59:15.025Z",
+            "modified": "2023-05-19T00:59:15.025Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":1,\n  \"cidade\": \"São Paulo\",\n  \"bairro\": \"Centro\",\n  \"obs\": \"Carona para o trabalho\",\n  \"horario\": \"08:00:00\",\n  \"dias\": \"00000\",\n  \"motorista_id\": 1,\n  \"passageiro_id1\": 2,\n  \"passageiro_id2\": 3,\n  \"passageiro_id3\": 4,\n  \"passageiro_id4\": 5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ba5cf305-fd80-427d-8731-d4a915378e81",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Get carona",
+            "url": "http://localhost:8000/caronas/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-19T00:59:20.714Z",
+            "modified": "2023-05-19T00:59:20.714Z",
+            "headers": []
+        },
+        {
+            "_id": "29fc27a6-4c5c-4111-90ae-1a972f5b50d2",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Cadastrar carona",
+            "url": "http://localhost:8000/caronas",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-19T00:59:26.403Z",
+            "modified": "2023-05-19T00:59:26.403Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"cidade\": \"São Paulo\",\n  \"bairro\": \"Centro\",\n  \"obs\": \"Carona para o trabalho\",\n  \"horario\": \"08:00:00\",\n  \"dias\": \"11100\",\n  \"motorista_id\": 1,\n  \"passageiro_id1\": 2,\n  \"passageiro_id2\": 3,\n  \"passageiro_id3\": 4,\n  \"passageiro_id4\": 5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9dafa82d-66db-49b7-9233-60b5ff0dd39a",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Deleta motorista",
+            "url": "http://localhost:8000/motoristas/3",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-05-19T00:59:30.701Z",
+            "modified": "2023-05-19T00:59:30.701Z",
+            "headers": []
+        },
+        {
+            "_id": "e5b3bf4f-77db-4618-a69c-6bac46b2cd44",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Alterar motorista",
+            "url": "http://localhost:8000/motoristas/2",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-05-19T00:59:35.182Z",
+            "modified": "2023-05-19T00:59:35.182Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"carro\": \"Fiat Palio\",\n  \"placa\": \"DEF5678\",\n  \"usuario_id\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "548c3d1a-5cc4-42bb-8e88-cb66dc607cc6",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Get motorista",
+            "url": "http://localhost:8000/motoristas/1",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-19T00:59:39.913Z",
+            "modified": "2023-05-19T00:59:39.913Z",
+            "headers": []
+        },
+        {
+            "_id": "c512f54d-15cf-4507-8cb8-bd2ed2c31f95",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Cadastra motorista",
+            "url": "http://localhost:8000/motoristas",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-05-19T00:59:43.809Z",
+            "modified": "2023-05-19T00:59:43.809Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"carro\": \"celta\",\n  \"placa\": \"ABC1234\",\n  \"usuario_id\": 6\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cddffc4e-239f-465e-8e04-0818cf8e326a",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Cadastrar usuario ",
+            "url": "http://localhost:8000/usuarios",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-05-19T00:59:48.567Z",
+            "modified": "2023-05-19T00:59:48.567Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"nome\": \"matheuys\",\n  \"senha\": \"123456\",\n  \"data_nasc\": \"1990-01-01\",\n  \"sexo\": 1,\n  \"cidade\": \"São Paulo\",\n  \"bairro\": \"Centro\",\n  \"insta\": \"@johndoe\",\n  \"email\": \"john.doe@example.com\",\n  \"telefone\": \"123456789\",\n  \"foto\": \"profile.jpg\",\n  \"nota\": 4.5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "083b8d4b-e12b-44ca-b2af-2d1afd1ee31c",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Alterar usuario",
+            "url": "http://localhost:8000/usuarios/2",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2023-05-19T00:59:54.862Z",
+            "modified": "2023-05-19T00:59:54.862Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"nome\": \"alterado\",\n  \"senha\": \"123456\",\n  \"data_nasc\": \"1990-01-01\",\n  \"sexo\": 1,\n  \"cidade\": \"São Paulo\",\n  \"bairro\": \"Centro\",\n  \"insta\": \"@johndoe\",\n  \"email\": \"john.doe@example.com\",\n  \"telefone\": \"123456789\",\n  \"foto\": \"profile.jpg\",\n  \"nota\": 4.5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "752fbed1-70b9-4e45-b5d4-b24bdc52f92b",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "Get usuario",
+            "url": "http://localhost:8000/usuarios/6",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-05-19T00:59:59.540Z",
+            "modified": "2023-05-19T00:59:59.540Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6b46198f-af79-4f3c-b8c6-22e5658e765d",
+            "colId": "4e03cf43-26da-4cf6-b3aa-dbf0b0aaa014",
+            "containerId": "",
+            "name": "deleta usuario ",
+            "url": "http://localhost:8000/usuarios/3",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2023-05-19T01:00:05.650Z",
+            "modified": "2023-05-19T01:00:05.650Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
